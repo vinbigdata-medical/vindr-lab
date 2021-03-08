@@ -10,3 +10,5 @@ nav:
       - "Annotator": annotator.md
       - "Label Data": label-data.md
     - "Developer Guide": developer-guide.md
+theme:
+  name: material
