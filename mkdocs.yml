@@ -5,10 +5,10 @@ nav:
     - "About": about.md
     - "Getting started": getting-started.md
     - "User guide":
-      - "Projects": project.md
-      - "Labels": label.md
-      - "Annotator": annotator.md
-      - "Label Data": label-data.md
+      - "Projects": ./user-guide/project.md
+      - "Labels": ./user-guide/label.md
+      - "Annotator": ./user-guide/annotator.md
+      - "Label Data": ./user-guide/label-data.md
     - "Developer Guide": developer-guide.md
 theme:
   name: material
