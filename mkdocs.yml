@@ -1,0 +1,12 @@
+site_name: Vinlab
+
+nav:
+    - "Home": index.md
+    - "About": about.md
+    - "Getting started": getting-started.md
+    - "User guide":
+      - "Projects": project.md
+      - "Labels": label.md
+      - "Annotator": annotator.md
+      - "Label Data": label-data.md
+    - "Developer Guide": developer-guide.md
