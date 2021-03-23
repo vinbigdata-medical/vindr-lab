@@ -1,17 +1,50 @@
-# Welcome to VinLab
+# VinDr Lab - Data Platform for Medical AI
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![VinDr Lab screenshot](img/vinlab_screenshot.png)
+## What is VinDr Lab ?
 
-## Commands
+VinDr Lab is a web-based platform for medical image annotation. It has been developed to remove the ground-truth barrier AI teams met to build meaningful medical AI applications. VinDr Lab provides a high-level web-interface equibbed with advanced annotation tools and project management features.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Features
 
-## Project layout
+### Project management
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- Manage full medical data cycle at study level
+
+- Control workflow with blind and/or open annotating
+
+- Track project progress and status of each task
+
+### Label management
+
+- Customize preset label groups or create a new one
+
+- Allow hierarchical labels
+
+- Arrange the order of labels appearing to labelers
+
+### Advanced annotation tools
+
+- Annotate with Bounding Box, Polygon, Brush
+
+- Elaborate annotations with notes and comments
+
+### Task management
+- Re-assign tasks if unsatisfactory
+
+- Monitor the distribution of labels in a project
+
+- Control versions of exported labels 
+
+---
+
+## Where to next?
+
+Check out these helpful links:
+
+- Deploy the system and try? Check our Getting Started.
+- Getting to know more about VinDr Lab? Check out our Design Guide.
+- How to use VinDr Lab to label data? Go to User Guide
+- Report a bug, suggest new feature, please check our Development Guide and Github
+
+&nbsp;
