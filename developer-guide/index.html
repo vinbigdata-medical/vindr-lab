@@ -9,12 +9,12 @@
       
       
       
-      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <link rel="shortcut icon" href="../img/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.5">
     
     
       
-        <title>Developer Guide - Vinlab</title>
+        <title>Developer guide - VinDr Lab</title>
       
     
     
@@ -71,10 +71,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Vinlab" class="md-header__button md-logo" aria-label="Vinlab">
+    <a href=".." title="VinDr Lab" class="md-header__button md-logo" aria-label="VinDr Lab">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <img src="../img/favicon_white.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -84,13 +83,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Vinlab
+            VinDr Lab
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Developer Guide
+              Developer guide
             
           </span>
         </div>
@@ -154,13 +153,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Vinlab" class="md-nav__button md-logo" aria-label="Vinlab">
+    <a href=".." title="VinDr Lab" class="md-nav__button md-logo" aria-label="VinDr Lab">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <img src="../img/favicon_white.png" alt="logo">
 
     </a>
-    Vinlab
+    VinDr Lab
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -188,8 +186,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../about.md" class="md-nav__link">
-        About
+      <a href="../getting-started/" class="md-nav__link">
+        Getting started
       </a>
     </li>
   
@@ -203,8 +201,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../getting-started/" class="md-nav__link">
-        Getting started
+      <a href="../design/" class="md-nav__link">
+        Design guide
       </a>
     </li>
   
@@ -233,6 +231,18 @@
           User guide
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/sign-in/" class="md-nav__link">
+        Sign-in
+      </a>
+    </li>
+  
+
           
             
   
@@ -276,7 +286,19 @@
   
     <li class="md-nav__item">
       <a href="../user-guide/label-data/" class="md-nav__link">
-        Label Data
+        Label data
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user-guide/users/" class="md-nav__link">
+        User management
       </a>
     </li>
   
@@ -305,12 +327,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Developer Guide
+          Developer guide
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Developer Guide
+        Developer guide
       </a>
       
         
@@ -483,23 +505,23 @@
                 
                 <h1 id="development-guide">Development guide</h1>
 <h2 id="scope">Scope</h2>
-<p>Vinlab benefits from the works of many excellent opensource
+<p>VinDr Lab benefits from the works of many excellent opensource
 projects. If you have any improvements related to the upstream
 projects, please contribute these changes to the upstreams' offical
 repositories.</p>
-<p>This development guide only apply to works made by <strong>Vinlab Team</strong> and
-is specific to the logic of Vinlab.</p>
+<p>This development guide only apply to works made by <strong>VinDr Lab Team</strong> and
+is specific to the logic of VinDr Lab.</p>
 <h2 id="contribution-guideline">Contribution guideline</h2>
-<p>If you have any idea that might improve <strong>Vinlab</strong>, feel free to make
+<p>If you have any idea that might improve <strong>VinDr Lab</strong>, feel free to make
 a <em>feature request</em> in the repo <strong>vinlab-frontend</strong>.</p>
 <p>If you have any feature implementation, bug fixing, or any code that
-improve a part of <strong>Vinlab</strong> , please making <strong>pull request</strong> to the
+improve a part of <strong>VinDr Lab</strong> , please making <strong>pull request</strong> to the
 associate repos. It is more that welcome if those pieces of code are
 documented and tested.</p>
 <h2 id="overview">Overview</h2>
-<p><strong>Vinlab</strong> is composed by multiple microservices. The deployment of
-those services can vary according to the use case. <strong>Vinlab Team</strong>
-provides some recipes to quickly deploy <strong>Vinlab</strong> in a repository
+<p><strong>VinDr Lab</strong> is composed by multiple microservices. The deployment of
+those services can vary according to the use case. <strong>VinDr Lab Team</strong>
+provides some recipes to quickly deploy <strong>VinDr Lab</strong> in a repository
 named <strong>recipes</strong>.</p>
 <h3 id="ui">UI</h3>
 <p><strong>vinlab-frontend</strong>: The code for UI, mainly derived from OHIF.</p>
@@ -517,7 +539,7 @@ named <strong>recipes</strong>.</p>
 <ul>
 <li><strong>Orthanc</strong> : Used as the DICOM storage.</li>
 <li><strong>Elasticsearch</strong>: Used as the primary storage service storing all
-  objects defined by <strong>Vinlab</strong>.</li>
+  objects defined by <strong>VinDr Lab</strong>.</li>
 <li><strong>Redis</strong>: Providing the locking mechanism.</li>
 <li><strong>rqlite</strong>: Small database service shipped with <strong>id-generator</strong>.</li>
 </ul>
@@ -527,6 +549,7 @@ named <strong>recipes</strong>.</p>
   providing the authentication and access control. Keycloak must be
   initialized with predefinded user roles and rules.</li>
 </ul>
+<p>&nbsp;</p>
                 
               
               
@@ -544,7 +567,7 @@ named <strong>recipes</strong>.</p>
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../user-guide/label-data/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../user-guide/users/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -553,7 +576,7 @@ named <strong>recipes</strong>.</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              Label Data
+              User management
             </div>
           </div>
         </a>

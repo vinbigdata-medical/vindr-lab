@@ -14,7 +14,7 @@
     
     
       
-        <title>Labels - VinDr Lab</title>
+        <title>Sign-in - VinDr Lab</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#labels" class="md-skip">
+        <a href="#sign-in" class="md-skip">
           Skip to content
         </a>
       
@@ -89,7 +89,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Labels
+              Sign-in
             
           </span>
         </div>
@@ -237,11 +237,20 @@
             
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../sign-in/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Sign-in
       </a>
+      
     </li>
   
 
@@ -261,83 +270,11 @@
             
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Labels
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../label/" class="md-nav__link">
         Labels
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#label-group" class="md-nav__link">
-    Label group
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#label-management" class="md-nav__link">
-    Label management
-  </a>
-  
-    <nav class="md-nav" aria-label="Label management">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#create-new-label" class="md-nav__link">
-    Create new label
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#import-label-from-csv" class="md-nav__link">
-    Import label from CSV
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#export-label-to-csv" class="md-nav__link">
-    Export label to CSV
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -417,55 +354,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#label-group" class="md-nav__link">
-    Label group
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#label-management" class="md-nav__link">
-    Label management
-  </a>
-  
-    <nav class="md-nav" aria-label="Label management">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#create-new-label" class="md-nav__link">
-    Create new label
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#import-label-from-csv" class="md-nav__link">
-    Import label from CSV
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#export-label-to-csv" class="md-nav__link">
-    Export label to CSV
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -477,50 +365,13 @@
               
                 
                 
-                <h1 id="labels">Labels</h1>
-<h2 id="label-group">Label group</h2>
-<p><img alt="LabelGroup" src="../../img/LabelGroup.png" /></p>
-<p>VinDr Lab introduces a Label group feature to share and reuse a group of labels.</p>
-<p>Accessing Label management page from Home page and you will see something like this:</p>
-<p>In this page, you can</p>
+                <h1 id="sign-in">Sign-in</h1>
+<p>Currently, there are 2 ways to sign in:</p>
 <ul>
-<li>Add a new group (click “plus in circle” icon next to “Label groups”)</li>
-<li>Edit a group<ul>
-<li>Rename.</li>
-<li>Delete.</li>
-<li>Add or remove label managers who have full access to the assigned group.</li>
+<li>Normal sign-in: You could only logged in with an available account. (requested)</li>
+<li>3rd provider: You will logged in as an annotator without any assigned project. Then you need to request permission for further features.</li>
 </ul>
-</li>
-<li>Manage label<ul>
-<li>Add new label</li>
-<li>Reorder label (which order that annotator will view)</li>
-</ul>
-</li>
-</ul>
-<h2 id="label-management">Label management</h2>
-<h3 id="create-new-label">Create new label</h3>
-<p><img alt="CreateLabel" src="../../img/CreateLabel.png" style="width:80%" /></p>
-<p>A Label requires:</p>
-<ul>
-<li>Type: Impression (Global: tag) or Finding (Local: annotation such as bounding box)</li>
-<li>Scope: Study, Series, Image (apply to impression label)</li>
-<li>Name, Short Name &amp; Description:<ul>
-<li>Name is required to display the label.</li>
-<li>Short Name is redundant (it will replace Name soon to display label).</li>
-<li>Description is the value for the tooltip when holding the mouse through the label name.</li>
-</ul>
-</li>
-<li>Label Family: Left these options as default if you do not know what it is.<ul>
-<li>Family type: If this label has children, what type of choice for all of its children, single choice or multiple choice ? Default value: Multiple choices.</li>
-<li>Parent Label: If this label is a child of a label, which one is its parent ? Please choose the one that you have already created before.</li>
-</ul>
-</li>
-<li>Color: color for text and annotation on viewport.</li>
-</ul>
-<h2 id="import-label-from-csv">Import label from CSV</h2>
-<p>To be updated ...</p>
-<h2 id="export-label-to-csv">Export label to CSV</h2>
-<p>To be updated ...</p>
+<p><img alt="LoginScreen" src="../../img/login_screen.png" /></p>
 <p>&nbsp;</p>
                 
               
@@ -539,7 +390,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../project/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../design/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -548,19 +399,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Projects
+              Design guide
             </div>
           </div>
         </a>
       
       
-        <a href="../annotator/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../project/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Annotator
+              Projects
             </div>
           </div>
           <div class="md-footer__button md-icon">
