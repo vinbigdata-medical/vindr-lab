@@ -1,14 +1,21 @@
-site_name: Vinlab
+site_name: VinDr Lab
 
 nav:
     - "Home": index.md
-    - "About": about.md
     - "Getting started": getting-started.md
+    - "Design guide": design.md
     - "User guide":
+      - "Sign-in": ./user-guide/sign-in.md
       - "Projects": ./user-guide/project.md
       - "Labels": ./user-guide/label.md
       - "Annotator": ./user-guide/annotator.md
-      - "Label Data": ./user-guide/label-data.md
-    - "Developer Guide": developer-guide.md
+      - "Label data": ./user-guide/label-data.md
+      - "User management": ./user-guide/users.md
+    - "Developer guide": developer-guide.md
 theme:
   name: material
+  logo: img/favicon_white.png
+  favicon: img/favicon.png
+
+markdown_extensions:
+  - attr_list
