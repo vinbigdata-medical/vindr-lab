@@ -49,7 +49,7 @@ If you're an experienced dev and interested in contributing to VinDr Lab:
 * Please read our [Contribution guidelines](https://github.com/vinbigdata-medical/vinlab-sites/blob/master/CONTRIBUTING.md) 
 for details on what and how you can contribute.
 * Check out our [Development Project Board]() for Product Roadmap.
-* Look for tasks labelled `good first issue` under the Issues tab in each repo.
+* Look for tasks under the Issues tab in each repo.
 * Join our [Gitter channel](https://gitter.im/vindr-lab/community).
 
 ## Acknowledgement
