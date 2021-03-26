@@ -1,11 +1,16 @@
-VinDr Lab
-========
-
-[![Gitter](https://badges.gitter.im/vindr-lab/community.svg)](https://gitter.im/vindr-lab/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)]()
-
-A Data Platform for Medical AI that enables building high-quality datasets and algorithms with lean process
-
+<div align="center">
+  <img src="./images/LogoVinDrLab.png"/>
+  <p><strong>The VinDr Lab</strong> is a Data Platform for Medical AI that enables building high-quality datasets and algorithms with lean process and advanced annotation features. The software is provided by the <a href="https://vindr.ai/">Medical Imaging team</a> at <a href="https://vinbigdata.org/">Vingroup Big Data Institute (VinBigdata)</a>.</p>
+</div>
+<p align="center">
+  <a href="https://gitter.im/vindr-lab/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge">
+    <img alt="Gitter" src="https://badges.gitter.im/vindr-lab/community.svg" />
+  </a>
+  <a href="/">
+    <img alt="MIT License" src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" />
+  </a>
+</p>
+<br/>
 
 ## About
 
