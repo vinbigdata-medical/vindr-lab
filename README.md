@@ -12,6 +12,7 @@
 </p>
 <br/>
 
+![Screeshot](./docs/img/vinlab_screenshot.png)
 ## About
 
 VinDr Lab is a open-source platform for medical image annotation. 
