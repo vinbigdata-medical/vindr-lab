@@ -34,7 +34,7 @@ All VinDr Lab projects and repositories underneath the VinBigdata Medical GitHub
 
 | Repository | Description | Maintainers |
 |------------|-------------|-------------|
-| [vinbigdata-medical/vinlab-sites](https://github.com/vinbigdata-medical/vinlab-sites) | Documentation and other general resources related to VinDr Lab | [@lego1st](https://github.com/lego1st), [@fuzzysource](https://github.com/fuzzysource) |
+| [vinbigdata-medical/vindr-lab](https://github.com/vinbigdata-medical/vindr-lab) | Documentation and other general resources related to VinDr Lab | [@lego1st](https://github.com/lego1st), [@fuzzysource](https://github.com/fuzzysource) |
 | [vinbigdata-medical/vindr-lab-deployment](https://github.com/vinbigdata-medical/vindr-lab-deployment) | Getting started with VinDr Lab. We support Kubernetes or Docker deployments. | [@iamatsundere](https://github.com/iamatsundere) |
 | [vinbigdata-medical/vindr-lab-api](https://github.com/vinbigdata-medical/vindr-lab-api) | Middleware layer between user interface and backend systems | [@iamatsundere](https://github.com/iamatsundere) |
 | [vinbigdata-medical/vindr-lab-id-generator](https://github.com/vinbigdata-medical/vindr-lab-id-generator) | For each study or task of a project, this service generates a new integer value which based on the key as string. | [@iamatsundere](https://github.com/iamatsundere) |
