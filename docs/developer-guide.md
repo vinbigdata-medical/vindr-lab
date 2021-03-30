@@ -41,17 +41,17 @@ named **recipes**.
 - **id-generator**: A service that generates **id** for vinlab
   objects.
 
-### Databases:
+### Databases
 
-- **Orthanc** : Used as the DICOM storage.
-- **Elasticsearch**: Used as the primary storage service storing all
+- [**Orthanc**](https://www.orthanc-server.com/) : Used as the DICOM storage.
+- [**Elasticsearch**](https://www.elastic.co/): Used as the primary storage service storing all
   objects defined by **VinDr Lab**.
-- **Redis**: Providing the locking mechanism.
-- **rqlite**: Small database service shipped with **id-generator**.
+- [**Redis**](https://redis.io/): Providing the locking mechanism.
+- [**rqlite**](https://github.com/rqlite/rqlite): Small database service shipped with **id-generator**.
 
 ### User management
 
-- **Keycloak**: Keycloak is used as a Identity Access Management service,
+- [**Keycloak**](https://www.keycloak.org/): Keycloak is used as a Identity Access Management service,
   providing the authentication and access control. Keycloak must be
   initialized with predefinded user roles and rules.
 
