@@ -1,6 +1,6 @@
 # Getting started
 
-Welcome to the VinDr Lab project.
+Welcome to the VinDr Lab project. This section helps you deploy VinDr Lab, please visit our [deployment repository](https://github.com/vinbigdata-medical/vindr-lab-deployment) !
 
 ## Start it up
 
