@@ -20,31 +20,36 @@ It has been developed to remove the ground-truth barrier AI teams met to build m
 VinDr Lab provides a high-level web-interface equibbed with advanced annotation tools and project management features.
 
 You can read more about the platform on
-[vindr.ai/vinlab](https://vindr.ai/vindr-lab).
+[vindr.ai/vindr-lab](https://vindr.ai/vindr-lab).
 
 ## What's here
 
 This repo is the "master" repo for all VinDr Lab-related projects. 
 It hosts the documentation and other misc. resources for VinDr Lab. 
 Code for other projects, like backend and frontend, are hosted in other repositories. 
-See the [project index](https://github.com/vinbigdata-medical/vindr-lab/blob/master/PROJECT-INDEX.md)
-for a full list of VinDr Lab-related repos and their respective maintainers.
+
+## Project Index 
+
+All VinDr Lab projects and repositories underneath the VinBigdata Medical GitHub organization are listed here. To learn more about each project, see the README in each repository.
+
+| Repository | Description | Maintainers |
+|------------|-------------|-------------|
+| [vinbigdata-medical/vinlab-sites](https://github.com/vinbigdata-medical/vinlab-sites) | Documentation and other general resources related to VinDr Lab | [@lego1st](https://github.com/lego1st), [@fuzzysource](https://github.com/fuzzysource) |
+| [vinbigdata-medical/vindr-lab-deployment](https://github.com/vinbigdata-medical/vindr-lab-deployment) | Getting started with VinDr Lab. We support Kubernetes or Docker deployments. | [@iamatsundere](https://github.com/iamatsundere) |
+| [vinbigdata-medical/vindr-lab-api](https://github.com/vinbigdata-medical/vindr-lab-api) | Middleware layer between user interface and backend systems | [@iamatsundere](https://github.com/iamatsundere) |
+| [vinbigdata-medical/vindr-lab-id-generator](https://github.com/vinbigdata-medical/vindr-lab-id-generator) | For each study or task of a project, this service generates a new integer value which based on the key as string. | [@iamatsundere](https://github.com/iamatsundere) |
+| [vinbigdata-medical/vindr-lab-uploader](https://github.com/vinbigdata-medical/vindr-lab-uploader) | Uploader modifies and transfers the DICOM files to database. | [@iamatsundere](https://github.com/iamatsundere) |
+| [vinbigdata-medical/vindr-lab-viewer](https://github.com/vinbigdata-medical/vindr-lab-viewer) | Frontend: Viewer allows the manipulation, annotation, and serialization of observations and many more features. | [@HoAnhVan](https://github.com/HoAnhVan) |
+| [vinbigdata-medical/vindr-lab-dashboard](https://github.com/vinbigdata-medical/vindr-lab-dashboard) | Frontend: Dashboard support data management and labeling administration | [@HoAnhVan](https://github.com/HoAnhVan) |
+
+
+Note: Another way to find all VinDrLab-related repos is to go to Vinbigdata Medical GitHub mainpage and enter the search term "vindr-lab", like [here](https://github.com/vinbigdata-medical?utf8=%E2%9C%93&q=vindr-lab&type=&language=). 
 
 ## Documentation
 
 Project documentation is hosted on
 [our github page](https://vinbigdata-medical.github.io/vindr-lab/). We are hoping to
 establish a more user-friendly version soon.
-
-
-## Resources
-
-To understand VinDr Lab better:
-
-* Read the README for each repo (full list is [here](https://github.com/vinbigdata-medical/vindr-lab/blob/master/PROJECT-INDEX.md)). 
-An architecture diagram of how these components are connected to one another is coming soon.
-* Check out our [Landing page](https://vindr.ai/vinlab).
-
 
 ## Contributing
 
