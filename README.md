@@ -59,7 +59,7 @@ If you're an experienced dev and interested in contributing to VinDr Lab:
 
 * Please read our [Contribution guidelines](https://github.com/vinbigdata-medical/vindr-lab/blob/master/CONTRIBUTING.md) 
 for details on what and how you can contribute.
-* Check out our [Development Project Board]() for Product Roadmap.
+* Check out our [Development Project Board]() for Product Roadmap (coming soon).
 * Look for tasks under the Issues tab in each repo.
 * Join our [Gitter channel](https://gitter.im/vindr-lab/community).
 
@@ -68,6 +68,12 @@ for details on what and how you can contribute.
 **Note:** If you use or find this repository helpful, please take the time to star this repository on Github. This is an easy way for us to assess adoption and it can help us obtain future funding for the project.
 
 This work is supported primarily by [Vingroup Big Data Institute](http://vinbigdata.org/)
+
+## Team members
+
+[<img alt="Lego1st" src="https://avatars.githubusercontent.com/u/11344955?v=4&s=117 width=117">](https://github.com/Lego1st) |[<img alt="fuzzysource" src="https://avatars.githubusercontent.com/u/720044?v=4&s=117 width=117">](https://github.com/fuzzysource) |[<img alt="iamatsundere" src="https://avatars.githubusercontent.com/u/8433644?v=4&s=117 width=117">](https://github.com/iamatsundere) |[<img alt="HoAnhVan" src="https://avatars.githubusercontent.com/u/16067784?v=4&s=117 width=117">](https://github.com/HoAnhVan) |[<img alt="trung1704ptit" src="https://avatars.githubusercontent.com/u/54926746?v=4&s=117 width=117">](https://github.com/trung1704ptit) |[<img alt="EdwardPham1615" src="https://avatars.githubusercontent.com/u/32992596?v=4&s=117 width=117">](https://github.com/EdwardPham1615) |[<img alt="minguyenn" src="https://avatars.githubusercontent.com/u/81665000?v=4&s=117 width=117">](https://github.com/minguyenn) |
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+[Lego1st](https://github.com/Lego1st)|[fuzzysource](https://github.com/fuzzysource)|[iamatsundere](https://github.com/iamatsundere)|[HoAnhVan](https://github.com/HoAnhVan)|[trung1704ptit](https://github.com/trung1704ptit)|[EdwardPham1615](https://github.com/EdwardPham1615)|[minguyenn](https://github.com/minguyenn)|
 ## License
 
 [MIT License](https://github.com/vinbigdata-medical/vindr-lab/blob/master/LICENSE)
