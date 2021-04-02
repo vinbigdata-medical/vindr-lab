@@ -12,12 +12,36 @@
 </p>
 <br/>
 
+<div align="center">
+
+  <a href="https://lab.vindr.ai">Live Demo</a> (username-password: demo-demo)
+  <br><a href="https://vinbigdata-medical.github.io/vindr-lab/">Documentations</a>
+  
+</div>
+
 ![Screeshot](./docs/img/vinlab_screenshot.png)
 ## About
 
 VinDr Lab is a open-source platform for medical image annotation. 
 It has been developed to remove the ground-truth barrier AI teams met to build meaningful medical AI applications. 
 VinDr Lab provides a high-level web-interface equibbed with advanced annotation tools and project management features.
+### Features
+
+The following features have been implemented:
+
+- Manage full medical data cycle at study level
+- Track project progress and status of each task
+- Create and share label groups
+- Organize labels by order and hierarchy
+- Annotation tools: Bounding box, Polygon, Brush, Notes, Comments
+- Control versions of exported labels
+
+This project is still in active development, so some options may not be fully implemented yet.
+
+**Future features**
+
+- Annotation in MPR view
+- AI itergration
 
 You can read more about the platform on
 [vindr.ai/vindr-lab](https://vindr.ai/vindr-lab).
