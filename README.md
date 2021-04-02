@@ -65,6 +65,17 @@ for details on what and how you can contribute.
 
 ## Acknowledgement
 
+To acknowledge VinDr Lab in an academic publication, please cite 
+
+```
+@misc{VinDr Lab,
+  author =       {Nghia T. Nguyen, Phuc T. Truong, Van A. Ho, Trung V. Nguyen, Hieu T. Pham, Mi T. Nguyen, Long T. Dam, Ha Q. Nguyen},
+  title =        {{VinDr Lab: Data Platform for Medical AI}},
+  howpublished = {\url{https://github.com/vinbigdata-medical/vindr-lab}},
+  year =         {2021}
+}
+```
+
 **Note:** If you use or find this repository helpful, please take the time to star this repository on Github. This is an easy way for us to assess adoption and it can help us obtain future funding for the project.
 
 This work is supported primarily by [Vingroup Big Data Institute](http://vinbigdata.org/)
