@@ -33,7 +33,7 @@ named **recipes**.
 
 ### Backend
 
-- **vinlab-api**: A REST API service writen in Go,handles all the
+- **vinlab-api**: A REST API service writen in Go, handles all the
   logic under the vinlab excepts the DICOM uploading.
 - **vinlab-uploader**: A REST API service handles the DICOM
   uploading. This service is writen in Python to utitlize the
