@@ -31,7 +31,7 @@ Install the <a href="https://k3s.io/">k3s</a> at first. But please remind that w
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 helm repo update
 
-helm install ingress-nginx ingress-nginx/ingress-nginx -n ingress
+helm install ingress-nginx ingress-nginx/ingress-nginx -n vingress
 ```
 
 - Next step, just run `kubectl apply -f .`
