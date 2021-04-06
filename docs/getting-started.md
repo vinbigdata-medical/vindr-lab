@@ -70,5 +70,3 @@ MinIO is being used to store some other things from the API. There is a small se
 ---
 
 Have fun!
-
-&nbsp;
