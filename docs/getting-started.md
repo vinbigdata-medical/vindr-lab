@@ -1,6 +1,6 @@
 # Getting started
 
-Welcome to the VinDr Lab project. This section helps you deploy VinDr Lab, please visit our [deployment repository](https://github.com/vinbigdata-medical/vindr-lab-deployment) !
+Welcome to the VinDr Lab project. This section helps you deploy VinDr Lab, please visit our original manual at [deployment repository](https://github.com/vinbigdata-medical/vindr-lab-deployment) !
 
 ## Start it up
 
@@ -50,7 +50,7 @@ We've already made it as simple as we can. Just go to the docker directory then 
 
 ### Keycloak
 
-We use Keycloak as an user management system (users, roles, permissions...), please follow [this link](KEYCLOAK.md) to complete the installation.
+We use Keycloak as an user management system (users, roles, permissions...), please follow [this link](https://github.com/vinbigdata-medical/vindr-lab-deployment/blob/master/KEYCLOAK.md) to complete the installation.
 
 ### MinIO
 
