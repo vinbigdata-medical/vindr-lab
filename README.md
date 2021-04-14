@@ -93,8 +93,8 @@ To acknowledge VinDr Lab in an academic publication, please cite
 
 ```
 @misc{VinDr Lab,
-  author =       {Nghia T. Nguyen, Phuc T. Truong, Van A. Ho, Trung V. Nguyen, Hieu T. Pham, Mi T. Nguyen, Long T. Dam, Ha Q. Nguyen},
-  title =        {{VinDr Lab: Data Platform for Medical AI}},
+  author =       {Nghia T. Nguyen, Phuc T. Truong, Van T. Ho, Trung V. Nguyen, Hieu T. Pham, Mi T. Nguyen, Long T. Dam, Ha Q. Nguyen},
+  title =        {{VinDr Lab: A Data Platform for Medical AI}},
   howpublished = {\url{https://github.com/vinbigdata-medical/vindr-lab}},
   year =         {2021}
 }
