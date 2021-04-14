@@ -42,9 +42,8 @@ VinDr Lab is a web-based platform for medical image annotation. It has been deve
 
 Check out these helpful links:
 
-- Deploy the system and try? Check our Getting Started.
-- Getting to know more about VinDr Lab? Check out our Design Guide.
-- How to use VinDr Lab to label data? Go to User Guide
-- Report a bug, suggest new feature, please check our Development Guide and Github
+- Deploy the system and try? Check our [**Getting Started**](https://vinbigdata-medical.github.io/vindr-lab/getting-started/)
+- How to use VinDr Lab to label data? Go to **User Guide**
+- Report a bug, suggest new feature, please check our [**Development Guide**](https://vinbigdata-medical.github.io/vindr-lab/developer-guide/) and [**Github**](https://github.com/vinbigdata-medical/vindr-lab)
 
 &nbsp;
