@@ -3,7 +3,7 @@ site_name: VinDr Lab
 nav:
     - "Home": index.md
     - "Getting started": getting-started.md
-    - "Design guide": design.md
+#    - "Design guide": design.md
     - "User guide":
       - "Sign-in": ./user-guide/sign-in.md
       - "Projects": ./user-guide/project.md
