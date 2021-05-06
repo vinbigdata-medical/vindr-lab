@@ -69,6 +69,10 @@ All VinDr Lab projects and repositories underneath the VinBigdata Medical GitHub
 
 Note: Another way to find all VinDrLab-related repositories is to go to Vinbigdata Medical GitHub main page and enter the search term "vindr-lab", like [here](https://github.com/vinbigdata-medical?utf8=%E2%9C%93&q=vindr-lab&type=&language=). 
 
+## Get started
+
+Our project requires at least 4GB of RAM system for the best performance and experiment. We support both Kubernetes and Docker deployments. Please visit [VinDr Lab Deployment](https://github.com/vinbigdata-medical/vindr-lab-deployment) to start !
+
 ## Documentation
 
 Project documentation is hosted on
