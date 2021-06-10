@@ -15,8 +15,6 @@
 <div align="center">
 
   <a href="https://lab.vindr.ai">Live Demo</a> 
-  <br>[Under construction]
-  <br>(user/pass: demo/demo)
   <br><a href="https://vinbigdata-medical.github.io/vindr-lab/">Documentations</a>
   
 </div>
