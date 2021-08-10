@@ -137,6 +137,7 @@ As a reviewer, you could do the following things:
 
 - Select multiple labelers to view.
 - Copy all annotations from selected labelers (except your own annotations) to make them your own and edit as usual.
+- Click "Save" to save your cloned anotations. Then you can de-select all other labelers. (Please save before de-selecting)
 
 ### Labeling annotation on Viewport
 
